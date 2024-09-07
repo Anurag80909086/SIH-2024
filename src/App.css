@@ -13,6 +13,16 @@
   justify-content: center;
 }
 
+.textFont {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hidden {
+  display: none;
+}
+.textCenter {
+  text-align: center;
+}
+
 body {
   padding: 3px;
 }

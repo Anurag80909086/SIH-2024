@@ -1,0 +1,40 @@
+.footer {
+  background-color: black;
+  padding: 10px 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.footer .allStates {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerHeading {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: rgb(24, 180, 154);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.footer .allStates .wrapper {
+  display: flex;
+  gap: 50px;
+}
+.wrapper ul {
+  padding: 10px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper ul li {
+  list-style: none;
+  cursor: pointer;
+  color: rgb(207, 208, 209);
+}
+.wrapper ul li:hover {
+  color: rgb(82, 160, 196);
+}
