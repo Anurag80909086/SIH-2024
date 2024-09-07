@@ -1,15 +1,16 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-// import ImageSwiper from "./components/image-swiper/ImageSwiper";
-
+import ImageSwiper from "./components/image-swiper/ImageSwiper";
+import CityCard from "./components/miniComponents/cityCard/CityCard";
 import "./App.css";
+
 const App = () => {
   return (
     <>
       <Navbar />
-      {/* <ImageSwiper /> */}
+      <ImageSwiper />
       <Routes>
-        <Route path="/" element={""} />
+        <Route path="/city" element={<CityCard />} />
       </Routes>
     </>
   );
