@@ -1,67 +1,67 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "./imageSwiper.css";
-import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
-import one from "./images/one.jpg";
-import two from "./images/two.jpg";
-import three from "./images/three.jpg";
-import four from "./images/four.jpg";
-import five from "./images/five.jpg";
-import six from "./images/six.jpg";
-import seven from "./images/seven.jpg";
-import eight from "./images/eight.jpg";
-import nine from "./images/nine.jpg";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
+import poster1 from "./images/poster1.jpg";
+import poster2 from "./images/poster2.jpg";
+import poster3 from "./images/poster3.jpg";
+import poster4 from "./images/poster4.avif";
+import poster5 from "./images/poster5.webp";
+import poster6 from "./images/poster6.jpg";
+import poster7 from "./images/poster7.webp";
+import poster8 from "./images/poster8.webp";
+import poster9 from "./images/poster9.jpg";
+import poster10 from "./images/poster10.jpg";
 export default function ImageSwiper() {
   return (
     <>
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
+        spaceBetween={0}
         centeredSlides={true}
         autoplay={{
-          delay: 2000,
+          delay: 2500,
           disableOnInteraction: false,
         }}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+        pagination={{
+          clickable: true,
         }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination, Autoplay]}
+        grabCursor={true}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={one} />
+          <img src={poster1} alt="poster" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={two} />
+          <img src={poster2} alt="poster" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={three} />
+          <img src={poster3} alt="poster" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={four} />
+          <img src={poster4} alt="poster" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={five} />
+          <img src={poster5} alt="poster" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={six} />
+          <img src={poster6} alt="poster" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={seven} />
+          <img src={poster7} alt="poster" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={eight} />
+          <img src={poster8} alt="poster" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={nine} />
+          <img src={poster9} alt="poster" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={poster10} alt="poster" />
         </SwiperSlide>
       </Swiper>
     </>

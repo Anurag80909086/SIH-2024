@@ -79,6 +79,40 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
+        <div className="contactUs">
+          <h2 className="footerHeading">Contact Us</h2>
+          <div className="wrapper">
+            <ul>
+              <li>
+                <i className="fa-solid fa-phone socialLinks"></i>+91 123456987
+              </li>
+              <li>
+                <i className="fa-solid fa-at socialLinks"></i>
+                indianculture@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="socialLinks">
+          <h2 className="footerHeading">Social Links</h2>
+          <div className="wrapper">
+            <ul>
+              <li>
+                <i className="fa-brands fa-facebook socialLinks"></i>Facebook
+              </li>
+              <li>
+                <i className="fa-brands fa-instagram socialLinks"></i>Instagram
+              </li>
+              <li>
+                <i className="fa-brands fa-twitter socialLinks"></i>Twitter
+              </li>
+              <li>
+                <i className="fa-brands fa-youtube socialLinks"></i>Youtube
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <section className="shortNotes">

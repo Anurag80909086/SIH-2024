@@ -4,7 +4,11 @@
   background-color: rgb(238, 238, 238);
   border-radius: 8px;
   display: flex;
-  /* justify-content: space-between; */
+  flex-direction: column;
+  position: sticky;
+  top: 5px;
+  margin-bottom: 5px;
+  z-index: 99;
 }
 
 /* this code is for navbar logo image and text */
@@ -13,53 +17,44 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  padding: 0 10px;
 }
 
 .logo_wrapper .logoImg img {
-  width: 100px;
-  border-radius: 8px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .logo_wrapper .logoName {
-  width: 150px;
   font-family: "Nerko One", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* this code is for right section */
-.rightSection {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-}
-
-.upperSection .login_section {
+.upperStrip .login_section {
   display: flex;
   gap: 10px;
   justify-content: end;
 }
 
-.bottomSection {
+.bottomStrip {
   display: flex;
-  gap: 10px;
-  align-items: center;
   justify-content: space-between;
-  padding-left: 50px;
 }
+
 /* this code is for navbar elements */
 
 .nav_wrapper {
   gap: 15px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .nav_wrapper li {
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
@@ -68,11 +63,14 @@
   user-select: none;
   position: relative;
 }
+.nav_wrapper li:hover {
+  border-top: 3px solid orangered;
+}
 .nav_wrapper li:hover .dropdown {
   display: block;
 }
 .dropdown {
-  background-color: black;
+  background-color: #2b2b2b;
   color: white;
   border-radius: 5px;
   padding: 10px;
@@ -81,14 +79,30 @@
   left: 0;
   top: 20px;
 }
+.dropdown ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.dropdown li {
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+.dropdown li:hover {
+  background-color: rgb(26, 98, 206);
+  border: none;
+}
 /* this is for search bar */
 
 .search_wrapper {
   gap: 10px;
+  padding-right: 5px;
 }
 
 .search_wrapper .inputContainer {
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 7px;
   padding: 0 5px;
 }
@@ -97,10 +111,9 @@
   outline: none;
   border: none;
   background-color: transparent;
-  font-size: 18px;
-  padding: 4px 7px;
+  font-size: 15px;
+  padding: 4px 5px;
   color: black;
-  width: 250px;
 }
 
 #micBtn,
@@ -116,7 +129,7 @@
 }
 .login_wrapper button {
   padding: 8px 20px;
-  width: 80px;
+  width: 85px;
   cursor: pointer;
   font-size: 12px;
   font-weight: 600;
