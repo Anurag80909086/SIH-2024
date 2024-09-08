@@ -15,7 +15,7 @@ import poster7 from "./images/poster7.webp";
 import poster8 from "./images/poster8.webp";
 import poster9 from "./images/poster9.jpg";
 import poster10 from "./images/poster10.jpg";
-export default function ImageSwiper() {
+function ImageSwiper() {
   return (
     <>
       <Swiper
@@ -67,3 +67,5 @@ export default function ImageSwiper() {
     </>
   );
 }
+
+export default ImageSwiper;

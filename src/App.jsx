@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import ImageSwiper from "./components/image-swiper/ImageSwiper";
@@ -9,9 +9,7 @@ const App = () => {
     <>
       <Navbar />
       <ImageSwiper />
-      <Routes>
-        <Route path="/" element={""} />
-      </Routes>
+
       <Footer />
     </>
   );
