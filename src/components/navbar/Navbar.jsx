@@ -1,5 +1,5 @@
 import "./Navbar.css";
-// import flagLogo from "./jambimony.png";
+import flagLogo from "./jambimony.png";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -22,7 +22,7 @@ const Navbar = () => {
       <section className="bottomStrip">
         <div className="logo_wrapper">
           <div className="logoImg">
-            {/* <img src={flagLogo} alt="Logo" title="jambimony" /> */}
+            <img src={flagLogo} alt="Logo" title="jambimony" />
           </div>
           <div className="logoName">
             INDIAN CULTUR <br />
