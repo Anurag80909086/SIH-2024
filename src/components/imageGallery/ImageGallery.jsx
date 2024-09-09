@@ -1,16 +1,16 @@
 import "./ImageGallery.css";
 import image1 from "./diving1.jpg";
-import image2 from "./diving1.jpg";
-import image3 from "./diving1.jpg";
-import image4 from "./diving1.jpg";
-import image5 from "./diving1.jpg";
-import image6 from "./diving1.jpg";
-import image7 from "./diving1.jpg";
-import image8 from "./diving1.jpg";
-import image9 from "./diving1.jpg";
-import image10 from "./diving1.jpg";
-import image11 from "./diving1.jpg";
-import image12 from "./diving1.jpg";
+import image2 from "./diving2.jpg";
+import image3 from "./diving3.jpg";
+import image4 from "./f2.jpg";
+import image5 from "./g1.jpg";
+import image6 from "./h3.jpg";
+import image7 from "./nature1.jpg";
+import image8 from "./nature2.jpg";
+import image9 from "./nature3.jpg";
+import image10 from "./p1.jpg";
+import image11 from "./p2.jpg";
+import image12 from "./p3.jpg";
 const ImageGallery = () => {
   return (
     <div className="imageGallery">
