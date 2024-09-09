@@ -1,14 +1,13 @@
-// import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/footer/Footer";
-import ImageSwiper from "./components/image-swiper/ImageSwiper";
+import Navbar from "./pages/navbar/Navbar";
+import Footer from "./pages/footer/Footer";
+import Home from "./pages/home/Home";
 import "./App.css";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <ImageSwiper />
+      <Home />
       <Footer />
     </>
   );
