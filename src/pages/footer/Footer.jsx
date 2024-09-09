@@ -23,14 +23,14 @@ const Footer = () => {
           <div className="heading">Contact Us</div>
           <div className="subHeading">Anurag</div>
           <div className="subHeading">Ojas</div>
-          <div className="subHeading">Astha</div>
+          <div className="subHeading">Aastha</div>
           <div className="subHeading">Priyanshu</div>
-          <div className="subHeading">Diya</div>
+          <div className="subHeading">Dia</div>
         </div>
       </section>
 
       <section className="bottomSection">
-        <p className="centerText">Developed by Ojas and Team</p>
+        <p className="centerText">Developed by Jambimony</p>
       </section>
     </div>
   );

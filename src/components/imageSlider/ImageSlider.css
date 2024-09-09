@@ -19,3 +19,71 @@
   line-height: 30px;
   font-family: "Montserrat", sans-serif;
 }
+.slides {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+  overflow: hidden;
+}
+.slide {
+  width: 70px;
+  height: 300px;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  border-radius: 30px;
+  position: relative;
+}
+.slide:hover {
+  width: 300px;
+  transition: 0.5s ease;
+}
+.slide:hover p {
+  font-weight: 600;
+  font-size: 22px;
+  left: 10px;
+  bottom: 15px;
+  transform: rotate(0deg);
+  line-height: normal;
+}
+
+.slide p {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  transform: translateX(-50%) rotate(-90deg);
+}
+.s1 {
+  background: url("i1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.s2 {
+  background: url("i2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.s3 {
+  background: url("i3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.s4 {
+  background: url("i4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.s5 {
+  background: url("i5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.s6 {
+  background: url("i6.jpg");
+  background-size: cover;
+  background-position: center;
+}
