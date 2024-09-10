@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./CityCard.css";
 const CityCard = (props) => {
   const { url, name, cityDes } = props;
+  const { cityTitle, cityUrl } = props;
   const [isOpen, setIsopen] = useState(false);
   function open360() {
     setIsopen(true);
@@ -21,10 +22,10 @@ const CityCard = (props) => {
       {isOpen ? (
         <div className="container360">
           <iframe
-            title="Taj Mahal"
+            title={cityTitle}
             width="100%"
             height="100%"
-            src="https://www.airpano.com/embed.php?3D=taj-mahal-india"
+            src={cityUrl}
             allowFullScreen
           ></iframe>
           <i
