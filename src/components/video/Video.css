@@ -20,6 +20,12 @@
   padding: 0 25%;
 }
 
+.Typewriter__wrapper,
+.Typewriter__cursor {
+  color: white;
+  font-size: 40px;
+  font-family: "raleway";
+}
 .textContainer h1 {
   font-size: 45px;
   padding: 20px 0px;

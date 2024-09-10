@@ -7,7 +7,7 @@
   width: 100%;
   z-index: 99;
   /* background-color: transparent; */
-  padding: 10px 20px;
+  padding: 5px 20px;
   position: sticky;
   box-shadow: -2px -5px 20px 0px rgba(255, 255, 255, 1);
   top: 0;
@@ -20,7 +20,8 @@
 }
 
 .leftSide img {
-  width: 80px;
+  width: 100px;
+  height: 70px;
   cursor: pointer;
 }
 
