@@ -9,9 +9,9 @@ const App = () => {
       <Navbar />
       <Home />
       <Footer />
-      <span>Hello this is for test</span>
-     </>
- );
+      <span>Changed</span>
+    </>
+  );
 };
 
 export default App;

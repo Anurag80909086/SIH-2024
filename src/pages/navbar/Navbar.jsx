@@ -7,7 +7,6 @@ const Navbar = () => {
       <div className="leftSide">
         <img src={logo} alt="logo" />
       </div>
-      <span>This is for test</span>
       <div className="rightSide">
         <ul className="navContainer">
           <NavLink to="/">
