@@ -9,8 +9,9 @@ const App = () => {
       <Navbar />
       <Home />
       <Footer />
-    </>
-  );
+      <span>Hello this is for test</span>
+     </>
+ );
 };
 
 export default App;
