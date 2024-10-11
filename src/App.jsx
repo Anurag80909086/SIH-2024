@@ -9,7 +9,6 @@ const App = () => {
       <Navbar />
       <Home />
       <Footer />
-      <span>Changed</span>
     </>
   );
 };
