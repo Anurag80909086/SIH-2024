@@ -1,5 +1,5 @@
 .home {
-  background: url("../../../public/tajmahal.jpg");
+  background: url("/tajmahal.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
