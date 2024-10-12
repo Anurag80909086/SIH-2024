@@ -16,7 +16,7 @@ const ImageGallery = () => {
     <div className="imageGallery">
       <div className="imageCard">
         <img src={image1} alt="" />
-        <span className="textCenter">Some Food</span>
+        <span className="textCenter">Some Food here</span>
       </div>
       <div className="imageCard">
         <img src={image2} alt="" />
