@@ -13,7 +13,7 @@ const Video = () => {
         <Typewriter
           options={{
             strings: [
-              "Dekho Apna Desh",
+              "Padharo Mharo Desh",
               "Incredible India !",
               "The heart of India beats in its rich heritage.",
               "Explore Indian Culture",
