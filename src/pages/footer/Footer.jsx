@@ -7,7 +7,7 @@ const Footer = () => {
           <span className="greenText">Travel With us</span>
         </div>
         <div className="row">
-          <div className="heading">Dekho Apna Desh!</div>
+          <div className="heading">Quick Links</div>
           <div className="subHeading">Indian Culture</div>
           <div className="subHeading">Incredible !ndia</div>
           <div className="subHeading">Ministry of Culture</div>
@@ -30,7 +30,7 @@ const Footer = () => {
       </section>
 
       <section className="bottomSection">
-        <p className="centerText">Developed by Jambimony</p>
+        <p className="centerText">Developed by Jambimony Team</p>
       </section>
     </div>
   );

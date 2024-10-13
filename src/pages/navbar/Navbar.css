@@ -33,7 +33,7 @@
 
 .navContainer {
   display: flex;
-  gap: 10px;
+  gap: 18px;
 }
 .navContainer a {
   text-decoration: none;

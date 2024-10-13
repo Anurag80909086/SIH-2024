@@ -12,20 +12,26 @@ const Navbar = () => {
           <NavLink to="/">
             <li>Home</li>
           </NavLink>
-          <NavLink to="heritage_site">
+          <NavLink to="/state_ut">
+            <li>State & UT</li>
+          </NavLink>
+          <NavLink to="/festivals">
+            <li>Festivals</li>
+          </NavLink>
+          <NavLink to="/heritage_site">
             <li>Heritage Sites</li>
           </NavLink>
-          <NavLink to="travel_with_us">
+          <NavLink to="/travel_with_us">
             <li>Travel With Us</li>
           </NavLink>
-          <NavLink to="gallery">
+          <NavLink to="/gallery">
             <li>Gallery</li>
           </NavLink>
-          <NavLink to="our_pride">
-            <li>Our Pride</li>
-          </NavLink>
-          <NavLink to="blog">
+          <NavLink to="/blog">
             <li>Blog</li>
+          </NavLink>
+          <NavLink to="/contactus">
+            <li>Contact Us</li>
           </NavLink>
         </ul>
         <div className="searchContainer flex">
