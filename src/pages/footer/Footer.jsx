@@ -4,20 +4,55 @@ const Footer = () => {
     <div className="footer flex">
       <section className="topSection">
         <div className="row">
-          <span className="greenText">Travel With us</span>
+          <div className="heading">Quick Links</div>
+          <div className="subHeading linkHeading">
+            <a href="#">Indian Culture</a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="#">Incredible India</a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="#">Ministry of Culture</a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="#">Swacch Bharat</a>
+          </div>
         </div>
         <div className="row">
-          <div className="heading">Quick Links</div>
-          <div className="subHeading">Indian Culture</div>
-          <div className="subHeading">Incredible !ndia</div>
-          <div className="subHeading">Ministry of Culture</div>
-          <div className="subHeading">Swacch Bharat</div>
+          <div className="heading">Travel With Us</div>
+          <div className="subHeading linkHeading">
+            <a href="#" target="_blank">
+              Taj Mahal
+            </a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="#" target="_blank">
+              Red Fort
+            </a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="#" target="_blank">
+              Ayodhya
+            </a>
+          </div>
         </div>
         <div className="row">
           <div className="heading">Visit For More</div>
-          <div className="subHeading">My Government</div>
-          <div className="subHeading">Digital India</div>
-          <div className="subHeading">Ministry of Tourism</div>
+          <div className="subHeading linkHeading">
+            <a href="#" target="_blank">
+              My Government
+            </a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="#" target="_blank">
+              Digital India
+            </a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="#" target="_blank">
+              Ministry of Tourism
+            </a>
+          </div>
         </div>
         <div className="row">
           <div className="heading">Contact Us</div>
