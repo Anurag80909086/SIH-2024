@@ -149,12 +149,12 @@ const Festivals = () => {
       {
         name: "Dussehra",
         date: "12 October",
-        src: "/Festivals/Dussehra.jpeg",
+        src: "/Festivals/Dusehara.jpeg",
       },
       {
         name: "Karva Chauth",
         date: "20 October",
-        src: "/Festivals/Karvachauth.jpeg",
+        src: "/Festivals/Karvachauth.jpg",
       },
     ],
     November: [
