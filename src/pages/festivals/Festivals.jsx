@@ -24,11 +24,6 @@ const Festivals = () => {
         src: "/Festivals/Guru Gobind Singh Jayanti.jpg",
       },
       {
-        name: "Basant Panchami",
-        date: "25 January",
-        src: "/Festivals/Vasant Panchmi.jpg",
-      },
-      {
         name: "Republic Day",
         date: "26 January",
         src: "/Festivals/Repblic Day.jpg",
@@ -36,164 +31,164 @@ const Festivals = () => {
     ],
     February: [
       {
-        name: "Vasant Panchami",
-        date: "14 February",
-        src: "/Festivals/Diwali.webp",
+        name: "Basant Panchami",
+        date: "25 January",
+        src: "/Festivals/Saraswati.jpeg",
       },
       {
         name: "Maha Shivaratri",
         date: "29 February",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Maha Shivratri.jpeg",
       },
     ],
     March: [
       {
         name: "Holi",
         date: "25 March",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Holi.jpeg",
       },
       {
         name: "Shab-e-Barat",
         date: "31 March",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/shab-e-barat.jpeg",
       },
     ],
     April: [
       {
         name: "Ram Navami",
         date: "17 April",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Ram-Navami.jpeg",
       },
       {
         name: "Mahavir Jayanti",
         date: "21 April",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/mahavir jayanti.jpeg",
       },
       {
         name: "Good Friday",
         date: "26 April",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Good Friday.jpeg",
       },
     ],
     May: [
       {
         name: "Eid-ul-Fitr",
         date: "10 May",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Eid Al Adha.jpeg",
       },
       {
         name: "Buddha Purnima",
         date: "23 May",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/BudhhaPurnima.jpeg",
       },
     ],
     June: [
       {
         name: "Ganga Dussehra",
         date: "17 June",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/GangaDasehara.jpeg",
       },
       {
         name: "Rath Yatra",
         date: "28 June",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Rath Yatra.jpeg",
       },
     ],
     July: [
       {
         name: "Guru Purnima",
         date: "21 July",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/GuruPurnima.jpeg",
       },
       {
         name: "Eid-ul-Adha (Bakrid)",
         date: "28 July",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Eid Al Adha.jpeg",
       },
     ],
     August: [
       {
         name: "Independence Day",
         date: "15 August",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/India Independence.jpeg",
       },
       {
         name: "Raksha Bandhan",
         date: "19 August",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/RkshaBandhan.jpeg",
       },
       {
         name: "Janmashtami",
         date: "26 August",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Janmashtami Celebrations.jpeg",
       },
     ],
     September: [
       {
         name: "Ganesh Chaturthi",
         date: "7 September",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Ganesh Chaturthi.jpeg",
       },
       {
         name: "Anant Chaturdashi",
         date: "16 September",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Anant Chaturdashi.jpeg",
       },
     ],
     October: [
       {
         name: "Gandhi Jayanti",
         date: "2 October",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Gandhi Jayanti.jpeg",
       },
       {
         name: "Navratri Begins",
         date: "3 October",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/navratri.jpeg",
       },
       {
         name: "Dussehra",
         date: "12 October",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Dussehra.jpeg",
       },
       {
         name: "Karva Chauth",
         date: "20 October",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Karvachauth.jpeg",
       },
     ],
     November: [
       {
         name: "Diwali",
         date: "1 November",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Diwali.jpeg",
       },
       {
         name: "Govardhan Puja",
         date: "2 November",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/GovardhanPuja.jpeg",
       },
       {
         name: "Bhai Dooj",
         date: "3 November",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Bhai Dooj.jpeg",
       },
       {
         name: "Chhath Puja",
         date: "9 November",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Chhath Puja.jpeg",
       },
       {
         name: "Guru Nanak Jayanti",
         date: "15 November",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Gurunanak.jpeg",
       },
     ],
     December: [
       {
         name: "Christmas",
         date: "25 December",
-        src: "/Festivals/Diwali.webp",
+        src: "/Festivals/Christmas.jpeg",
       },
     ],
   };
