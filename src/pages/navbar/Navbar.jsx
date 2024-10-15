@@ -1,12 +1,20 @@
 import { NavLink } from "react-router-dom";
 import logo from "./Logo.jpg";
 import "./Navbar.css";
+import { useEffect } from "react";
 const Navbar = () => {
+  useEffect(() => {
+    const googleTranslateScript = document.createElement("script");
+    googleTranslateScript.src =
+      "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+    document.body.appendChild(googleTranslateScript);
+  }, []);
   return (
     <div className="navbar" id="fixedd">
       <div className="leftSide">
         <img src={logo} alt="logo" />
       </div>
+      <div id="google_translate_element"></div>
       <div className="rightSide">
         <ul className="navContainer">
           <NavLink to="/">
