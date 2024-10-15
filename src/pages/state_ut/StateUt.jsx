@@ -63,6 +63,8 @@ function StateUt() {
           })}
         </div>
       </div>
+      <p>{stateName}</p>
+      <p>{stateCode}</p>
     </>
   );
 }
