@@ -32,6 +32,7 @@
   cursor: pointer;
   border-radius: 30px;
   position: relative;
+  border: 1px solid red;
 }
 .slide:hover {
   width: 300px;
