@@ -4,6 +4,9 @@
   object-fit: cover;
 }
 
+.video {
+  position: relative;
+}
 .textContainer {
   display: flex;
   align-items: center;

@@ -22,17 +22,22 @@ const Footer = () => {
           <div className="heading">Travel With Us</div>
           <div className="subHeading linkHeading">
             <a href="#" target="_blank">
-              Taj Mahal
+              Hotel Booking
             </a>
           </div>
           <div className="subHeading linkHeading">
             <a href="#" target="_blank">
-              Red Fort
+              Flight Tickets
             </a>
           </div>
           <div className="subHeading linkHeading">
             <a href="#" target="_blank">
-              Ayodhya
+              Train Tickets
+            </a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="#" target="_blank">
+              Bus Tickets
             </a>
           </div>
         </div>

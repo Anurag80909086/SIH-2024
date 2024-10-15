@@ -99,3 +99,9 @@
 #searchBtn:active {
   transform: scale(0.95);
 }
+
+#google_element {
+  position: absolute;
+  top: 2px;
+  right: 5%;
+}

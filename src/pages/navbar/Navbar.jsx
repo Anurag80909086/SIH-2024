@@ -4,17 +4,28 @@ import "./Navbar.css";
 import { useEffect } from "react";
 const Navbar = () => {
   useEffect(() => {
-    // const googleTranslateScript = document.createElement("script");
-    // googleTranslateScript.src =
-    //   "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-    // document.body.appendChild(googleTranslateScript);
+    const addScript = document.createElement("script");
+    addScript.src =
+      "https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate";
+    document.body.appendChild(addScript);
+
+    window.loadGoogleTranslate = () => {
+      new window.google.translate.TranslateElement(
+        {
+          pageLanguage: "en",
+          layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
+        },
+        "google_element"
+      );
+    };
   }, []);
   return (
     <div className="navbar" id="fixedd">
+      <div id="google_element"> </div>
+
       <div className="leftSide">
         <img src={logo} alt="logo" />
       </div>
-      {/* <div id="google_translate_element"></div> */}
       <div className="rightSide">
         <ul className="navContainer">
           <NavLink to="/">
