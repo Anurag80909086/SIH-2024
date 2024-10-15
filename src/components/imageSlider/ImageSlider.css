@@ -58,32 +58,32 @@
   transform: translateX(-50%) rotate(-90deg);
 }
 .s1 {
-  background: url("i1.jpg");
+  background: url("./Heritage Sites/Agra Fort.jpg");
   background-size: cover;
   background-position: center;
 }
 .s2 {
-  background: url("i2.jpg");
+  background: url("./Heritage Sites/Ajanta Caves.jpg");
   background-size: cover;
   background-position: center;
 }
 .s3 {
-  background: url("i3.jpg");
+  background: url("./Heritage Sites/Elephanta Caves.jpg");
   background-size: cover;
   background-position: center;
 }
 .s4 {
-  background: url("i4.jpg");
+  background: url("./Heritage Sites/Ellora Caves.jpg");
   background-size: cover;
   background-position: center;
 }
 .s5 {
-  background: url("i5.jpg");
+  background: url("./Heritage Sites/Sun Temple.jpg");
   background-size: cover;
   background-position: center;
 }
 .s6 {
-  background: url("i6.jpg");
+  background: url("./Heritage Sites/Fatehpur Sikri.jpg");
   background-size: cover;
   background-position: center;
 }
