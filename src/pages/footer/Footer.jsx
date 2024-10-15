@@ -61,12 +61,36 @@ const Footer = () => {
           </div>
         </div>
         <div className="row">
-          <div className="heading">Contact Us</div>
-          <div className="subHeading">Anurag Singh</div>
-          <div className="subHeading">Ojas Kumar</div>
-          {/* <div className="subHeading">Aastha</div> */}
-          <div className="subHeading">Priyanshu</div>
-          <div className="subHeading">Dia Khurana</div>
+          <div className="heading">Our Team</div>
+          <div className="subHeading linkHeading">
+            <a
+              href="http://www.linkedin.com/in/anurag-singh-lucknow"
+              target="_blank"
+            >
+              Anurag Kumar
+            </a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a
+              href="http://www.linkedin.com/in/ojas-kumar-5b70931b8"
+              target="_blank"
+            >
+              Ojas Kumar
+            </a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="https://www.linkedin.com/in/dia-khurana" target="_blank">
+              Dia Khurana
+            </a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a
+              href="https://www.linkedin.com/in/priyanshu-tiwari-india/"
+              target="_blank"
+            >
+              Priyanshu Tiwari
+            </a>
+          </div>
         </div>
       </section>
 
