@@ -1,4 +1,4 @@
-import videoLink from "./v1.mp4";
+import videoLink from "./v2.mp4";
 import "./Video.css";
 import Typewriter from "typewriter-effect";
 
