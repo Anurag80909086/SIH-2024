@@ -13,6 +13,7 @@ const Video = () => {
         <Typewriter
           options={{
             strings: [
+              "Vasudeva Kutumbakam ",
               "Padharo Mharo Desh",
               "Incredible India !",
               "The heart of India beats in its rich heritage.",
@@ -26,9 +27,11 @@ const Video = () => {
           className="typewriter"
         />
         <p className="pText">
-          India is a country dotted with stunning wildlife diversity, and rich
-          traditions. While the Western coast greets you with mouth-watering
-          delicacies, the East part invites you to experience its greenery.
+          India is a vast and diverse country in South Asia, known for its rich
+          cultural heritage, history, and vibrant traditions. It is the
+          world&apos;s largest democracy and the second-most populous nation,
+          with over 1.4 billion people. India is home to a variety of languages,
+          religions, and ethnic groups, making it a melting pot of cultures.
         </p>
         <a href="#">Read More</a>
       </div>

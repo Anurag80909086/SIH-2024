@@ -17,9 +17,9 @@ const Cities = () => {
         />
         <CityCard
           url={image2}
-          name="Red Fort"
+          name="Agra Fort"
           cityDes=""
-          cityTitle="Red Fort"
+          cityTitle="Agra Fort"
           cityUrl="https://www.airpano.com/embed.php?3D=agra-fort-india"
         />
         <CityCard
