@@ -5,40 +5,36 @@ const Footer = () => {
       <section className="topSection">
         <div className="row">
           <div className="heading">Quick Links</div>
+
           <div className="subHeading linkHeading">
-            <a href="#">Indian Culture</a>
+            <a href="/state_ut">State & UT</a>
           </div>
           <div className="subHeading linkHeading">
-            <a href="#">Incredible India</a>
+            <a href="/festivals">Heritage Sites</a>
           </div>
           <div className="subHeading linkHeading">
-            <a href="#">Ministry of Culture</a>
+            <a href="/gallery">Gallery</a>
           </div>
           <div className="subHeading linkHeading">
-            <a href="#">Swacch Bharat</a>
+            <a href="/blog">Blog</a>
+          </div>
+          <div className="subHeading linkHeading">
+            <a href="/contact_us">Contact Us</a>
           </div>
         </div>
         <div className="row">
           <div className="heading">Travel With Us</div>
           <div className="subHeading linkHeading">
-            <a href="#" target="_blank">
-              Hotel Booking
-            </a>
+            <a href="/travel_with_us">Hotel Booking</a>
           </div>
           <div className="subHeading linkHeading">
-            <a href="#" target="_blank">
-              Flight Tickets
-            </a>
+            <a href="/travel_with_us">Flight Tickets</a>
           </div>
           <div className="subHeading linkHeading">
-            <a href="#" target="_blank">
-              Train Tickets
-            </a>
+            <a href="/travel_with_us">Train Tickets</a>
           </div>
           <div className="subHeading linkHeading">
-            <a href="#" target="_blank">
-              Bus Tickets
-            </a>
+            <a href="/travel_with_us">Bus Tickets</a>
           </div>
         </div>
         <div className="row">
