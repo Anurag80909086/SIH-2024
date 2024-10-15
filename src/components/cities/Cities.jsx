@@ -6,7 +6,7 @@ import image3 from "./swaminarayan.jpg";
 const Cities = () => {
   return (
     <div className="cityContainer flex">
-      <h1>360° Iconic Monuments of India</h1>
+      <h1>Immersive 360° & AR/VR Tours of India&apos;s Iconic Monuments</h1>
       <div className="cityWrapper">
         <CityCard
           url={image1}
