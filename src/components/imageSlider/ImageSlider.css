@@ -32,7 +32,6 @@
   cursor: pointer;
   border-radius: 30px;
   position: relative;
-  border: 1px solid red;
 }
 .slide:hover {
   width: 300px;
@@ -57,34 +56,4 @@
   font-size: 12px;
   line-height: 12px;
   transform: translateX(-50%) rotate(-90deg);
-}
-.s1 {
-  background: url("./Heritage Sites/Agra Fort.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.s2 {
-  background: url("./Heritage Sites/Ajanta Caves.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.s3 {
-  background: url("./Heritage Sites/Elephanta Caves.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.s4 {
-  background: url("./Heritage Sites/Ellora Caves.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.s5 {
-  background: url("./Heritage Sites/Sun Temple.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.s6 {
-  background: url("./Heritage Sites/Fatehpur Sikri.jpg");
-  background-size: cover;
-  background-position: center;
 }
