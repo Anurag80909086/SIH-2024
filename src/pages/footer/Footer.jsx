@@ -1,25 +1,37 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer flex">
       <section className="topSection">
         <div className="row">
           <div className="heading">Quick Links</div>
+          
+          <div className="subHeading linkHeading">
+            <Link to='/state_ut'>
+            State & UT
+            </Link>
+          </div>
+          <div className="subHeading linkHeading">
+          <Link to='/heritage_site'>
+            Heritage Sites
+            </Link>
+          </div>
+          <div className="subHeading linkHeading">
+          <Link to='/gallery'>
+            Gallery
+            </Link>
+          </div>
+          <div className="subHeading linkHeading">
+            <Link to='/blog'>
+            Blog
+            </Link>
+          </div>
+          <div className="subHeading linkHeading">
+          <Link to='/contact_us'>
+            Contact Us
+            </Link>
 
-          <div className="subHeading linkHeading">
-            <a href="/state_ut">State & UT</a>
-          </div>
-          <div className="subHeading linkHeading">
-            <a href="/festivals">Heritage Sites</a>
-          </div>
-          <div className="subHeading linkHeading">
-            <a href="/gallery">Gallery</a>
-          </div>
-          <div className="subHeading linkHeading">
-            <a href="/blog">Blog</a>
-          </div>
-          <div className="subHeading linkHeading">
-            <a href="/contact_us">Contact Us</a>
           </div>
         </div>
         <div className="row">
