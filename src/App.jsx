@@ -7,6 +7,8 @@ import StateUt from "./pages/state_ut/StateUt";
 import HeritageSites from "./pages/heritage_sites/HeritageSites";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import Error from "./pages/error/Error";
+import CommingSoon from "./pages/comming_soon/CommingSoon";
 const App = () => {
   return (
     <>
@@ -17,6 +19,11 @@ const App = () => {
         <Route path="/festivals" element={<Festivals />} />
         <Route path="/state_ut" element={<StateUt />} />
         <Route path="/heritage_site" element={<HeritageSites />} />
+        <Route path="/blog" element={<CommingSoon />} />
+        <Route path="/gallery" element={<CommingSoon />} />
+        <Route path="/travel_with_us" element={<CommingSoon />} />
+        
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
     </>

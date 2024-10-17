@@ -1,5 +1,8 @@
 import "./ContactUs.css";
 const ContactUs = () => {
+  function sendData(){
+    alert('Your Reponse has sent. JambiMony will get back to you.')
+  }
   return (
     <div className="contactUs_container">
       <h3>Message Us</h3>
@@ -43,7 +46,7 @@ const ContactUs = () => {
             placeholder="Enter Your Message"
           ></textarea>
         </div>
-        <button className="btn" id="submt" type="submit">
+        <button className="btn" id="submt"  onClick={sendData}>
           Send Message
         </button>
       </div>

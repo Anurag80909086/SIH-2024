@@ -1,6 +1,29 @@
+import { useState } from "react";
 import "./HeritageSites.css";
 import img from "./varanasi.jpg";
+import axios from "axios";
+import { useEffect } from "react";
 const HeritageSites = () => {
+  const [weather , setWeather] = useState({});
+
+  const getWeather = async()=>{
+    const apiKey = "6878cd3100340f7ce9be193e607be769";
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${'varanasi'}&appid=${apiKey}`;
+    try{
+       const response = await axios.get(url);
+       console.log(response.data)
+       setWeather(response.data)
+      }
+      catch(error){
+        console.log('error getting data',err)
+      }
+    }
+    
+
+  useEffect(()=>{
+    getWeather()
+  },[])
+  
   return (
     <div className="siteWrapper">
       <div className="siteTitle pageHeading">Varanasi</div>
@@ -218,15 +241,20 @@ const HeritageSites = () => {
           <section className="smallSection">
             <div className="sideHeading">Weather Forecast</div>
             <div className="weatherWrapper">
-              <div>
-                <span>Weather :</span>Sunny
+              {
+                weather.weather && weather.main && weather.wind ? <>              
+                <div>
+                <span>Weather :</span>{weather.weather[0].main}
               </div>
               <div>
-                <span>Temperature : </span> 20 deg
+                <span>Temperature : </span> { (weather.main.temp - 273.15).toFixed(2) + '°C'}
+
               </div>
               <div>
-                <span>Wind : </span> 1.03 Km/h
-              </div>
+                <span>Wind : </span> {weather.wind.speed} Km/h
+              </div></> : 'Loading ...'
+              }
+
             </div>
           </section>
           <section className="smallSection">
