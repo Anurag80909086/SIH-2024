@@ -8,6 +8,7 @@ import HeritageSites from "./pages/heritage_sites/HeritageSites";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Error from "./pages/error/Error";
+import Varanasi from "./pages/varanasi/Varanasi";
 import CommingSoon from "./pages/comming_soon/CommingSoon";
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/blog" element={<CommingSoon />} />
         <Route path="/gallery" element={<CommingSoon />} />
         <Route path="/travel_with_us" element={<CommingSoon />} />
+        <Route path="/varanasi" element={<Varanasi />} />
         
         <Route path="*" element={<Error />} />
       </Routes>
